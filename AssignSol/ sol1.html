@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Solution</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 20px;
+        }
+        
+        h2 {
+           text-align: center;
+        }
+
+         .col-lg-3 {
+          border: 100px;
+          background-color: grey;
+          margin-right:  30px;;
+          margin-left: 30px;
+          width: 300px;
+          height: auto;
+          font-family: Helvetica;
+          border: 2px solid black;
+          margin: 30px;
+        }
+        .col-lg-6 {
+          border: 100px;
+          background-color: grey;
+          margin-right:  30px;;
+          margin-left: 30px;
+          width: 300px;
+          height: auto;
+          font-family: Helvetica;
+          border: 3px solid black;
+          margin: 30px;
+        }
+        
+        h3 {
+            float: right;         
+         background-color:pink;
+         border: 3px solid black;
+         
+        }
+          
+        .row {
+            width: 100%;
+        }
+        @media(min-width:1200px){
+            .col-lg-3{
+                float: left;
+                border: auto;
+                width:25%;
+            }
+            .col-lg-6{
+                float: left;
+                border: auto;
+                width:25%;
+            }
+        }
+
+
+        @media(min-width:950px)and (max-width:1199px){
+            .col-lg-3{
+                float: left;
+                border: auto ;
+                width: 40%;
+            }
+            .col-lg-6{
+                float: left;
+                width: 85%;
+            }
+        }
+        @media(min-width:760px),(max-width:949px){
+            .col-md-6{
+                float: left;
+                border: 50px ;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>Our Menu</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6"> <div class="a1"><h3>chicken</h3></div><br><br>
+                <p>Nehru Road ,lachi vala ,special plate food will be fresh 
+                and spice type you want,md or high,delivery on time,order cansilationnot allowed
+                  ,deliver in 3 hours,tip atleast 50rs   </p></div>
+
+            <div class="col-lg-3 col-md-6"><div class="a2"><h3>bread</h3></div><br><br> <p>Nehru Road ,lachi vala ,special plate  food will be fresh 
+                and spice type you want,md or high,delivery on time,order cansilationnot allowed
+                 ,deliver in 3 hours,tip atleast 50rs   </p></div>
+
+            <div class="col-lg-6 col-md-6"><div class="a3"><h3>sushi</h3></div><br><br><p>Nehru Road ,lachi vala ,special plate , food will be fresh 
+                and spice type you want,md or high,delivery on time,order cansilationnot allowed
+                 deliver in 3 hours,tip atleast 50rs   </p></div>
+        </div>        
+    </div>
+</body>
+</html>
